@@ -1,0 +1,81 @@
+
+/*About Me*/
+#one{
+    text-transform:uppercase;
+    color:yellow;
+    font-size: xx-large;
+}
+#two{
+    text-transform: capitalize;
+    color:white;
+    font-size: x-large;
+}
+#three{
+    color:white;
+    font-size: x-large; 
+}
+#two >span{
+    font-weight: bold;
+    color:purple;
+}
+#about-me{
+    background-color:blaCk;
+
+}
+.container-1{
+    display:flex;
+    flex-direction:column;
+    gap:15px
+}
+.container-1>*{
+    font-family:sans-serif;
+}
+
+
+/*Resume*/
+#resume >p{
+    background-color: blueviolet;
+    text-align: center;
+    color:aliceblue;
+    font-family: ;
+    padding:2.5px;
+    font-size: x-large;
+    margin-top: 2px;
+}
+.container-2{
+    display:grid;
+    grid-template-columns:1fr 2fr 3fr ;
+    grid-template-rows:1fr 1fr   ;
+    gap:10px;
+
+}
+#four > img{
+    border-radius: 50%;
+
+}
+#five{
+    text-transform: capitalize;
+    grid-column: span 2;
+}
+#five-a , #six-a ,#seven-a{
+    background-color: rebeccapurple;
+    color:white;
+    padding:2.5px
+}
+.container-2 span{
+    font-weight:bold;
+}
+#six{
+   grid-column: span 2;
+}
+.container-2 *{
+    text-transform: capitalize;
+    font-size:20px;
+}
+#resume{
+    border:3px solid black
+}
+
+
+
+
